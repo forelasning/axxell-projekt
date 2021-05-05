@@ -1,0 +1,31 @@
+{
+  "name": "axxell-projekt",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "parcel src/index.html -d dev --target browser --open",
+    "build": "parcel build src/index.html -d dist --target browser",
+    "deploy": "npm run build && gh-pages -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/forelasning/axxell-projekt.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/forelasning/axxell-projekt/issues"
+  },
+  "homepage": "https://github.com/forelasning/axxell-projekt#readme",
+  "devDependencies": {
+    "@fullhuman/postcss-purgecss": "^4.0.3",
+    "gh-pages": "^3.1.0",
+    "parcel-bundler": "^1.12.5",
+    "postcss-modules": "^4.0.0",
+    "tailwindcss": "^2.1.2"
+  },
+  "dependencies": {
+    "prettier": "^2.2.1"
+  }
+}
