@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "dev": "parcel src/index.html -d dev --target browser --open",
-    "build": "parcel build src/index.html -d dist --target browser",
+    "build": "parcel build src/index.html -d dist --public-url ./axxell-projekt/ --target browser",
     "deploy": "npm run build && gh-pages -d dist"
   },
   "repository": {
